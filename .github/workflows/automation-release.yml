@@ -29,7 +29,7 @@ jobs:
     - name: Set up Java Environment
       uses: actions/setup-java@v3
       with:
-        java-version: 19
+        java-version: 8
         distribution: 'temurin'
         cache: 'maven'
 
